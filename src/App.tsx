@@ -7,8 +7,6 @@ function App() {
     <>
       <Grid
         w="100vw" // Make sure the grid stretches to full viewport width
-        templateRows="auto 1fr"
-        templateColumns="repeat(2, 1fr)" // Ensures two columns on larger screens
         templateAreas={{
           base: `"nav" "main"`,
           lg: `"nav nav" "aside main"`,
